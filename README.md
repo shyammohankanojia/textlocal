@@ -22,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Register on https://www.textlocal.in and get user details, set them in your ENV VARS
+
+      localtext_user  = ENV['LOCALTEXT_USER']
+
+      api_hash        = ENV['API_HASH']
+
+      sender          = ENV['SENDER']
+
 
 ## Development
 
@@ -38,4 +45,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

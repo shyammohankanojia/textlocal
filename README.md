@@ -30,6 +30,10 @@ Register on https://www.textlocal.in and get user details, set them in your ENV 
 
       sender          = ENV['SENDER']
 
+To Send SMS just call this
+
+Textlocal::Sms.send("your message text goes here", "your mobile numbers")
+
 
 ## Development
 

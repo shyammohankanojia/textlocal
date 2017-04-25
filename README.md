@@ -30,9 +30,16 @@ Register on https://www.textlocal.in and get user details, set them in your ENV 
 
       sender          = ENV['SENDER']
 
-To Send SMS just call this
 
-Textlocal::Sms.send("your message text goes here", "your mobile numbers")
+      To Send SMS Add textlocal gem in your Gemfile
+
+      gem 'textlocal', git: "https://github.com/shyammohankanojia/textlocal.git", branch: :master
+
+      Add call following method to send sms
+
+      Textlocal::Sms.send("your message text goes here", "your mobile numbers")
+
+      Ex: Textlocal::Sms.send("123456 is your mobile verification OTP.", "8688468400")
 
 
 ## Development

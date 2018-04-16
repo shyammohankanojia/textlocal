@@ -24,7 +24,7 @@ Or install it yourself as:
 
 Register on https://www.textlocal.in and get user details, set them in your ENV VARS
 
-      localtext_user  = ENV['LOCALTEXT_USER']
+      localtext_user  = ENV['TEXTLOCAL_USER']
 
       api_hash        = ENV['API_HASH']
 

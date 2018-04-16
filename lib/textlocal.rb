@@ -7,7 +7,7 @@ require "json"
 module Textlocal
   class Sms
     def self.send(message, numbers)
-      localtext_user  = ENV['LOCALTEXT_USER']
+      localtext_user  = ENV['TEXTLOCAL_USER']
       api_hash        = ENV['API_HASH']
       sender          = ENV['SENDER']
 
